@@ -33,6 +33,11 @@ To enable the Konami code version automatically, also add:
 
 ## Credits
 
-The only changes I've made to the
+The only initial changes I made to the
 [Raptorize jQuery Plugin by ZURB](http://www.zurb.com/playground/jquery-raptorize)
-were whitespace- and asset-pipeline-related.
+were whitespace- and asset-pipeline-related.  See git logs for further changes.
+
+## License
+
+Released under the [MIT license](raptorize-rails/blob/master/LICENSE) (same as
+the plugin).

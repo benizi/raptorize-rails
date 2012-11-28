@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description = %q{Instantly Raptorize any Rails app}
   gem.summary = %q{Load the Raptorize jQuery plugin automatically in your rails app.}
   gem.homepage = 'https://github.com/benizi/raptorize-rails'
+  gem.license = 'MIT'
 
   gem.files = `git ls-files`.split($\)
   gem.executables = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
