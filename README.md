@@ -2,6 +2,10 @@
 
 Hold on to your butts.
 
+## Origin
+
+[Raptorize jQuery Plugin by ZURB](http://www.zurb.com/playground/jquery-raptorize) + Rails
+
 ## Installation
 
 Add this line to your application's Gemfile:
