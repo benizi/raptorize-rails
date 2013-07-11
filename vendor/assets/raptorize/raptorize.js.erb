@@ -22,9 +22,15 @@
       var _this = $(this);
       var audioSupported = false;
 
-      //Stupid Browser Checking which should be in jQuery Support
-      if ($.browser.mozilla && $.browser.version.substr(0, 5) >= "1.9.2" || $.browser.webkit) {
-        audioSupported = true;
+      if ($.browser) { // old jQuery audio detection
+        if ($.browser.mozilla && $.browser.version.substr(0, 5) >= "1.9.2" || $.browser.webkit) {
+          audioSupported = true;
+        }
+      } else {
+        var audio = document.createElement('audio');
+        if (audio.canPlayType) { // HTML5 audio element function
+          audioSupported = true;
+        }
       }
 
       //Raptor Vars
