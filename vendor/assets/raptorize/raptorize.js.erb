@@ -58,7 +58,9 @@
         //Sound Hilarity
         if(audioSupported) {
           function playSound() {
-            document.getElementById('elRaptorShriek').play();
+            var sound = document.getElementById('elRaptorShriek');
+            sound.load();
+            sound.play();
           }
           playSound();
         }
