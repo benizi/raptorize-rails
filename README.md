@@ -6,6 +6,10 @@ Hold on to your butts.
 
 [Raptorize jQuery Plugin by ZURB](http://www.zurb.com/playground/jquery-raptorize) + Rails
 
+## Demo
+
+[Raptorize Rails demo on Heroku](http://raptorize-rails-demo.herokuapp.com)
+
 ## Installation
 
 Add this line to your application's Gemfile:
